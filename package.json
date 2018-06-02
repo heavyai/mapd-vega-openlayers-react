@@ -1,0 +1,58 @@
+{
+  "name": "mapd_vega_openlayer",
+  "version": "1.0.0",
+  "description": "Mapd Vega and Openlayers mapping library integration example",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode development --config webpack.config.js",
+    "build": "webpack",
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "mapd-vega-openlayers-react"
+  },
+  "keywords": [
+    "map",
+    "vega",
+    "openlayers",
+    "image layer"
+  ],
+  "author": "Uyanga",
+  "license": "ISC",
+  "dependencies": {
+    "@mapd/connector": "https://github.com/mapd/mapd-connector.git",
+    "babel-polyfill": "^6.26.0",
+    "proj4": "^2.4.4",
+    "openlayers": "^4.6.5",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.47",
+    "@babel/preset-env": "^7.0.0-beta.47",
+    "@babel/preset-react": "^7.0.0-beta.47",
+    "@babel/plugin-proposal-throw-expressions": "^7.0.0-beta.47",
+    "babel-loader": "^8.0.0-beta",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babelify": "^8.0.0",
+    "browserify": "^16.2.2",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "cssify": "^1.0.3",
+    "file-loader": "^1.1.11",
+    "hot-server": "^0.0.16",
+    "html-webpack-plugin": "^3.2.0",
+    "http-server": "^0.11.1",
+    "single-line-string": "^0.0.2",
+    "style-loader": "^0.21.0",
+    "uglify-js": "^3.3.24",
+    "watchify": "^3.11.0",
+    "webpack": "^4.8.2",
+    "webpack-cli": "^2.1.3",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
